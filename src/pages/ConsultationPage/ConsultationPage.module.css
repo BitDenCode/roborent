@@ -1,0 +1,93 @@
+.container {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 20px 80px; /* увеличенный верхний padding */
+  color: white;
+  position: relative;
+  
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 160px;
+  z-index: 10;
+  padding: 30px 20px 20px;
+  
+}
+
+.content {
+  max-width: 350px;
+  text-align: left;
+  z-index: 1;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  text-shadow: 
+    -2px -2px 0 #000,  
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000,
+    -2px  0px 0 #000,
+     2px  0px 0 #000,
+     0px -2px 0 #000,
+     0px  2px 0 #000;
+}
+
+.highlight {
+  color: #6df5c7;
+  text-shadow: 
+    -2px -2px 0 #000,  
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000,
+    -2px  0px 0 #000,
+     2px  0px 0 #000,
+     0px -2px 0 #000,
+     0px  2px 0 #000;
+}
+
+.description {
+  font-size: 20px;
+  color: #ebe9e9;
+  line-height: 1.2;
+  margin-bottom: 30px;
+  height: 40%;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 12px;
+  text-shadow: 
+    -2px -2px 0 #000,  
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000,
+    -2px  0px 0 #000,
+     2px  0px 0 #000,
+     0px -2px 0 #000,
+     0px  2px 0 #000;
+}
+
+.button {
+  background-color: #4c596b;
+  border: none;
+  padding: 14px 20px;
+  border-radius: 12px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #969baf;
+}

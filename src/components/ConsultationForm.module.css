@@ -1,0 +1,60 @@
+.container {
+  /*background-color: #5c5959;*/
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.formContainer {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.459);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 60px;
+  color: white;
+  text-shadow: 
+    -2px -2px 0 #000,  
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000,
+    -2px  0px 0 #000,
+     2px  0px 0 #000,
+     0px -2px 0 #000,
+     0px  2px 0 #000;
+} 
+
+.button {
+  background-color: #4c596b;
+  border: none;
+  padding: 14px 20px;
+  border-radius: 12px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #969baf;
+}
+
+.textarea {
+  resize: vertical; /* можно только по вертикали */
+  max-height: 200px; /* ограничение вниз */
+  min-height: 80px;  /* чтобы не была слишком маленькой */
+  overflow-y: auto;  /* если переполнено — скролл */
+}
+
+.input,
+.textarea {
+  background-color: #ffffff;
+  display: block;
+  width: 80%;
+  margin: 12px 20px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
